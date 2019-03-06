@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clase 3 Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="http://www.cadif1.com" class="navbar-brand col-md-2 hidden-xs">
+						<img src="img/logo.svg" class="img-responsive">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<form class="form-inline navbar-form navbar-left"> <!--para hacer una barra de busqueda con el navbar-form y left se ajusta al tamaño-->
+						<div class="form-group">
+							<input type="text" name="busqueda" class="form-control">
+						</div>
+						<div class="form-group">
+							<button type="button" class="btn btn-info">Buscar</button>
+						</div>
+					</form>
+					<ul class="nav navbar-nav navbar-right"><!--Al quitarle el navbar right se quedaria pegado a la barra de navegacion-->
+						<li class="active"><a href="#">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">Todos los servicios</li>
+									<!--Este es el encabezado del menu desplegable-->
+									<li><a href="#">Cursos</a></li>
+									<li><a href="#">Carreras</a></li>
+									<li><a href="#">Asesorìas</a></li>
+								</ul>
+						</li>
+						<li>
+							<a href="#">Acerca de</a>
+						</li>
+						<li>
+							<a href="#">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="registro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<form name="frm-registro" class="formulario">
+						<div class="form-group">
+							<label>Nombre:</label>
+							<input type="text" name="nombre" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Contraseña:</label>
+							<input type="password" name="contraseña" class="form-control">
+						</div>
+						<div class="form-group">
+							<button type="button" class="btn btn-success btn-block">Acceder</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--Otra forma de hacerlo con formularios horizontales-->
+
+	<!--<section class="registro">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<form name="frm-registro" class="formulario form-horizontal"> esto hace que abarque el 100%
+					<div class="form-group">
+						<div class="col-md-2">
+							<label>Nombre:</label>	
+						</div>
+						<div class="col-md-10">
+							<input type="text" name="nombre" class="form-control">	
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-2">
+							<label>Contaseña:</label>	
+						</div>
+						<div class="col-md-10">
+							<input type="password" name="contraseña" class="form-control">	
+						</div>
+					</div>
+					<div class="form-group">
+						<button type="button" class="btn btn-success btn-block">Acceder</button>
+					</div>
+			</div>
+				</form>
+		</div>
+	</div>
+	</section> -->
+
+		<section class="registro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<form name="frm-registro" class="formulario form-horizontal">
+						<div class="form-group">
+							<label>Nombre:</label>
+							<input type="text" name="nombre" class="form-control" placeholder="EJ:Anderson">
+						</div>
+						<div class="form-group">
+							<label>Contraseña:</label>
+							<input type="password" name="contraseña" class="form-control" placeholder="Contraseña">
+						</div>
+
+						<div class="form-group">
+							<label>Repetir contraseña:</label>
+							<input type="password" name="contraseña" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>Correo</label>
+							<input type="text" name="corrreo" class="form-control" placeholder="EJ: adkhadh@hotmail.com">
+						</div>
+
+						<div class="form-group">
+							<div class="col-md-2">
+								<label>Estado civil:</label>	
+							</div>
+							<div class="col-md-10">
+								<select class="form-control">
+									<option disabled="disabled" selected="selected">Seleccione</option>
+									<option>Casado</option>
+									<option>Soltero</option>
+									<option>Viudo</option>
+								</select>
+							</div>					
+						</div>
+
+						<div class="form-group">
+
+							<div class="radio">
+								<label><input type="radio" name="genero" value="femenino"> Femenino</label>
+	
+								<label><input type="radio" name="genero" value="masculino"> Masculino</label>
+
+								<label><input type="radio" name="otro" value="masculino"> Otro</label><!--se le cambia el name para que deje seleccionar ambas opciones -->
+
+							</div>
+																				
+						</div>
+						<div class="form-group">
+							<label>Comentario:</label>
+							<textarea class="form-control"></textarea>
+						</div>
+
+						<div class="form-group">
+							<div class="checkbox">
+								<label><input type="checkbox" name="politicas">Acepto las polìticas de privacidad y leì el contrato</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<button type="button" class="btn btn-success">Acceder</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-md-6">
+					<form name="inicio-sesion" class="form-horizontal">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="glyphicon glyphicon-user"></i>
+								</span>
+								<input type="text" name="nombre" placeholder="Ingrese su nombre" class="form-control">		
+							</div>													
+						</div>
+
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="glyphicon glyphicon-lock"></i>
+								</span>
+								<input type="password" name="contraseña" placeholder="Dime tu contraseñay te hackeo" class="form-control">		
+							</div>									
+						</div>
+
+						<div class="form-group">
+							<button type="button" class="btn btn-success col-md-offset-1"><span class="glyphicon glyphicon-plane"></span> Enviar</button>								
+						</div>						
+				
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

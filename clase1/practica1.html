@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FRAMEWORK 1st class with adreitax</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"><!--esto llama a las librerias sirven para darle estilos predefinidos-->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<!--<h1>Estoy usando bootstrap</h1> <!esto hace que las estiquetas se vean diferente por la clase "container"
+		que es proviniente de bootstrap
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+		<button class="btn-primary">Boton</button> -->
+
+		<div class="row">
+			<div class="col-md-4 col-sm-6"> <!--haciendolo responsive-->
+				<div class="row"> <!--Dividiendo la columna de 12 en 12 internas-->
+					<div class="col-md-6 col-sm-6">
+						<img src="img/Desert.jpg" class="img-responsive">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-sm-4">
+						<h2>Subtitulo</h2>
+						<p>el desierto esta desierto Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus officia perferendis aliquam veniam modi delectus similique placeat consequatur, quam totam maiores amet error dolore ipsa quae alias nam dicta.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+					<img src="img/Desert.jpg" class="img-responsive">
+					<h2>Subtitulo</h2>
+					<p>el desierto esta desierto</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<img src="img/Desert.jpg" class="img-responsive">
+					<h2>Subtitulo</h2>
+					<p>el desierto esta desierto</p>
+			</div>
+			<div class="row">
+
+			<div class="col-md-4 col-sm-6 col-md-offset-8"> <!--desplazando el div en cantidad columnas se le indique-->
+				<div class="col-md-10 col-sm-10">
+					<img src="img/Desert.jpg" class="img-responsive">
+				</div>
+				<div class="col-md-10 col-sm-10">
+						<h2>Subtitulo</h2>
+						<p>el desierto esta desierto</p>
+				</div>
+				</div>
+			</div>
+
+				<div class="clearfix"></div> <!--Con esto se elimina la flotacion de aqui en adelante-->
+			<div class="col-md-4 col-sm-6">
+					<img src="img/Desert.jpg" class="img-responsive">
+						<h2>Subtitulo</h2>
+						<p>el desierto esta desierto</p>
+				</div>
+
+			<div class="col-md-4 col-sm-6">
+					<img src="img/Desert.jpg" class="img-responsive">
+						<h2>Subtitulo</h2>
+						<p>el desierto esta desierto</p>
+				</div>
+		</div>
+	</div>
+
+	<div class="img-responsive">
+	</div>
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

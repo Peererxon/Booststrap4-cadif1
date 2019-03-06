@@ -1,0 +1,12 @@
+COLORES:
+
+- amarillo: #ffdd83
+- gris: #bdbdbd
+- gris claro: #f2f2f2
+
+TIPOGRAFÍAS:
+
+- Lobster
+- Poppins
+
+*disponibles en Google Fonts

@@ -1,0 +1,224 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Poppins;
+
+}
+
+#logo{
+	height: 100px;
+}
+
+ul{
+	font-family: Poppins;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding: 41px 35px;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	background:#ffdd83;
+}
+
+ul li{
+	font-size: 15px;
+}
+
+.dropdown-menu>li>a {
+    font-size: 13px;
+    padding: 10px;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 30px;
+}
+
+.glyphicon-triangle-top:before {
+    position: relative;
+    left: 71px;
+    bottom: 19px;
+    font-size: 18px;
+    color: white;
+}
+#aventuras{
+	background-image: url(../img/aventura.jpg);
+	background-size: cover;
+	height: 750px;
+    position: relative;
+    bottom: 20px;
+}
+
+#vive{
+	color: 	#bdbdbd;
+	font-weight: bold;
+	font-size: 95px;
+	font-family: Poppins;
+	margin-top: 35px;
+}
+
+#aventuras-texto{
+	font-size: 150px;
+	font-family: Lobster;
+	color: white;
+	margin-top: 8px;
+	position: relative;
+    right: 45px;
+
+}
+
+#aventuras .row .container{
+	margin-top: 25px;
+}
+label{
+	font-family: Poppins;
+    font-size: 17px;
+}
+.formulario{
+	height:auto;
+	background: white;
+    position: relative;
+    top: 30px;
+}
+#formulario{
+	margin-top: 20px;
+	font-size: 15px;
+}
+.btn{
+	margin-top:30px;
+}
+#servicios{
+	height: 300px;
+	background: white;
+	position: relative;
+}
+
+
+h1{
+	font-family: Lobster;
+	color: #bdbdbd;
+	font-size: 50px;
+}
+
+section{
+	margin-top: 3%;
+}
+.lineafea{
+	width: 100%;
+	background:#f2f2f2;
+	height: 2px;
+	margin-bottom: 30px;
+}
+.servicios{
+	display: flex;
+	justify-content:center;
+	background: #ffdd83;
+	height: 150px;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+span{
+	font-size: 65px;
+	color: white;
+}
+
+h3{
+	color: white;
+}
+#imagenes{
+margin-top: 30px;
+}
+.imagenes{
+	height: 300px;
+}
+
+.imagenes:first-child{
+	opacity: 0.8;
+	background-image: url(https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+	background-size: cover;
+	object-fit: cover;
+
+}
+
+.imagenes:nth-child(2){
+	opacity: 0.8;
+	background-image: url(https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	object-fit: cover;
+}
+
+.imagenes:nth-child(3){
+	opacity: 0.8;
+	background-image: url(https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	object-fit: cover;
+}
+
+.imagenes:nth-child(4){
+	opacity: 0.8;
+	background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	object-fit: cover;
+}
+
+.imagenes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tituloconbordecitox{
+	padding:10px;
+	border:2px solid white;
+	text-transform: uppercase;
+}
+x
+/* #boton-pajuo{
+	color: black;
+} */
+ @media only screen and (max-width: 768px){
+	.servicios{
+		margin-top: 30px;
+	}
+
+	#servicios {
+    height: 443px;
+    background: white;
+    position: relative;
+    top: 650px;
+	}
+	#aventuras-texto{
+		color: black;
+		font-size: 80px;
+    	margin: 8px 18px;
+	}
+
+	#vive{
+		margin-left: -15px;
+		font-size: 74px;
+	}
+	#logo{
+	height: 150px;
+	}
+	#imagenes {
+    position: relative;
+    top: 680px;;
+	}
+	#aventuras .row .container {
+    margin-top: 25px;
+    height: 695px;
+	}
+
+	#dolor-de-cabeza{
+		margin: 232px 18px;
+	}
+
+	.nav>li{
+		text-align: center;
+	}
+	/*Profesora se que esta forma de hacerle el responsive esta mal pero no pude encontrar otra manera (al menos en le momento cuanodo lo realizé),
+	nose porque pero cuando deplazaba una caja esta no empujaba a las otras al fondo(el formulario,especificamente) sino que se sobreponian y yo no trabaje con z-index,asi
+	que mi solucion super eficiente fue:(sarcasmo) desplazar todo la misma medida de pixeles necesarias que requeria y asi hacer el espacio jeje..
+	*/
+}

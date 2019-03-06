@@ -1,0 +1,46 @@
+
+*{
+	font-size: 30px;
+	color: white;
+}
+
+.superior{
+	background: skyblue;
+	margin-top:50px;
+	padding: 20px;
+}
+
+.central{
+	background: #0066ff;
+	margin-top:50px;
+	padding: 50px;
+	text-align: center;
+}
+
+.abajo1{
+	margin-top:50px;
+	padding: 80px;
+	background: red;
+	text-align: center;
+}
+
+.abajo2{
+	margin-top:50px;
+	padding: 80px;
+	background: lightgreen;
+	text-align: center;
+}
+
+.abajo3{
+	margin-top:50px;
+	padding: 80px;
+	background: purple;
+	text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width: 990px){
+		#azul{
+			display: none;
+		}
+	}
+}

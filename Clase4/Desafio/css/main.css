@@ -1,0 +1,145 @@
+﻿body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow-x: hidden;
+	color: #3cb290;
+}
+
+header{
+	height: 150px;
+}
+
+.navbar-default{
+	background: #262b36;
+	height: 150px;
+}
+
+.navbar-right{
+	position: relative;
+    bottom: 10px;
+}
+
+.img-logo{
+	width: 37%;
+	position: relative;
+    bottom: 10px;
+}
+
+#busqueda{
+	top: 34px;
+    right: 44px;
+}
+
+.input-group-addon {
+    padding: 6px 25px;
+}
+
+.input-group .form-control {
+    width: 94%;
+}
+
+#inicio{
+	margin-left: 15px;
+}
+/*MODAL*/
+/******************************************************************/
+
+/*REGISTRO*/
+/*?¡?¡?¡¡¡??¡¡??¡¡¡?¡¡¡?¡?¡?¡?¡¡?¡?¡?¡??¡¡?¡?¡?¡?¡?¡?¡?¡¡?¡¡??¡?¡¡?*/
+#modal{
+	margin-top: 0px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin-left: 36px;
+}
+
+.nav-tabs>li {
+    float: left;
+     margin-bottom: 0px; 
+    margin: 0px 10px;
+}
+/*?¡?¡?¡¡¡??¡¡??¡¡¡?¡¡¡?¡?¡?¡?¡¡?¡?¡?¡??¡¡?¡?¡?¡?¡?¡?¡?¡¡?¡¡??¡?¡¡?*/
+
+/*Inicio de sesion*/
+/*(()()()(())()()()()()()()())()()(()()()()()()()()()()(()())(()))*/
+
+
+/*(()()()(())()()()()()()()())()()(()()()()()()()()()()(()())(()))*/
+
+/******************************************************************/
+.nav>li>a {
+    padding: 6px 9px;
+}
+
+h4{
+	color: #3cb290;
+	font-weight: bold;
+}
+.migas{
+	background: lightblue;
+}
+    
+#navegacion{
+	background: #3cb290;
+	height: 48px;
+}
+
+.migas li{
+	color: white;
+	font-weight: bold;
+}
+
+.list-inline{
+	display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: relative;
+    bottom: 19px;
+}
+
+.row{
+	padding-top: 30px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	width: 100%;
+}
+
+.cartelera{
+	background-color: #262b36;
+	padding-top: 30px;
+}
+
+.cartelera-titulo{
+	color: white;
+	position: relative;
+    bottom: 24px;
+    padding-bottom: 12px;
+}
+
+#vermas{
+	position: relative;
+    bottom: 28px;
+}
+
+.img-cartelera{
+	width: 90%;
+}
+footer{
+	height: 90px;
+}
+#footer{
+	background: #1c1f27;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+    margin-top: 10px;
+}
+
+label{
+color:black;
+}

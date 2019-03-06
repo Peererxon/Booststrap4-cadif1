@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Practica1 Bootstrap2da clase</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css"><!--esto llama a las librerias sirven para darle estilos predefinidos-->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+
+		<header>
+			<nav class="navbar  navbar-default">
+				<!--navbar fixed-tpo
+								-botton-->
+				<!--navbar-inverse pepon-->
+					
+
+					<div class="navbar-header">
+						<!--Menu hamburguesa-->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand col-md-2 hidden-xs"><!--para que se esconda cuando esta en una medida pequeña-->
+							<img src="img/logo.svg" class="img-responsive">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Inicio</a></li> <!--esto hace que se vea sombreado el li que tenga la clase active-->
+							<li><a href="#">Servicios</a></li>
+							<li><a href="#">Acerca de</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Iniciar sesion</a></li>
+							<li><a href="#">Registro</a></li>
+						</ul>
+					</div>
+			</nav>
+		</header>
+		
+		<div class="container">	
+		<section class="row">
+			<div class="col-md-12">
+				<div class="banner">
+					<h1>FrameworkCSS</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button type="button" class="btn btn-danger btn-block">HOLA!</button>
+					<!--clases de btn del bootstrap
+						-btn-primary=azul
+						-btn-warning=amarillo
+							-danger=rojo
+							-info=azul claro
+							-success=verde
+							-lg
+							-md
+							-sm
+							-xs
+							(TAMAÑOS DE LOS BOTONES)
+					-->
+				</div>
+			</div>
+		</section>
+		<section id="principal" class="row">
+			<article class="col-md-3">
+				<div class="imagen-principal">
+					<img src="img/Desert.jpg" class="img-responsive">
+				</div>
+				<h2>Subtitulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button" class="btn btn-primary btn-lg">HOLA!</button>
+			</article>
+
+			<article class="col-md-3">
+				<div class="imagen-principal">
+					<img src="img/Desert.jpg" class="img-responsive">
+				</div>
+				<h2>Subtitulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button" class="btn btn-info btn-md">HOLA!</button>
+			</article>
+
+			<article class="col-md-3">
+				<div class="imagen-principal">
+					<img src="img/Desert.jpg" class="img-responsive">
+				</div>
+				<h2>Subtitulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button" class="btn btn-success btn-sm">HOLA!</button>
+			</article>
+
+			<article class="col-md-3">
+				<div class="imagen-principal">
+					<img src="img/Desert.jpg" class="img-responsive">
+				</div>
+				<h2>Subtitulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button" class="btn btn-warning btn-xs">HOLA!</button>
+			</article>
+		</section>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

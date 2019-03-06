@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Poppins" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Desafio3 Booststrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  	crossorigin="anonymous"></script>
+  	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<a href="#">
+							<figure>
+								<img src="img/logo-agencia-de-viajes.png" alt="y tampoco internet de paso" title="Viaja con el dinero que no tienes(it´s comming)!"id="logo" class="col-xs-offset-5">
+							</figure>
+						</a>
+
+					</div>		
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<span class="caret" style="color:black" id="boton-pajuo"></span></a>
+									<ul class="dropdown-menu">
+										<i class="glyphicon glyphicon-triangle-top"></i>
+										<li><a href="#">Boletos Aereos
+											</a>
+										</li>
+										<li><a href="#">Cruseros</a></li>
+										<li><a href="#">Hoteles</a></li>
+										<li><a href="#">Tours</a></li>
+
+									</ul>
+							</li>
+							<li><a href="#">Destinos</a></li>
+							<li><a href="#">Galeria</a></li>
+							<li><a href="#">Contacto</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid"  id="aventuras">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-4 col-xs-12" id="dolor-de-cabeza">
+					<h1 id="vive">Vive en</h1>
+					<h1 id="aventuras-texto">Aventuras</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container formulario" class="">
+
+			<form name="frm-registro" id="formulario" >
+				<div class="row">
+					<div class="col-md-5 col-xs-11 radio">
+						<label><input type="radio" name="lugar" value="femenino"> Viaje ida y vuelta</label>
+
+						<label><input type="radio" name="lugar" value="masculino"> Solo ida</label>
+
+						<label><input type="radio" name="lugar" value="masculino"> Multidestino</label>
+					</div>
+					<div class=" col-md-4 col-md-offset-3 col-xs-12">
+						<div class="form-group">
+							<div class="checkbox">
+								<label><input type="checkbox" name="politicas">Solo vuelos directos</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group col-md-4 col-xs-12">
+						<label>Desde:</label>
+						<input type="text" name="nombre" class="form-control" placeholder="Ej:Barquisimeto"><!--Como si estas cosas pasaran ahahahaha.-->
+					</div>
+
+					<div class="form-group col-md-4 col-xs-12">
+						<label>Hasta:</label>
+						<input type="password" name="contraseña" class="form-control" placeholder="Ej:Miami">
+					</div>
+
+					<div class="form-group col-md-4 col-xs-12">
+						<label>Clase:</label>
+						<select class="form-control">
+							<option>Económica</option>						
+							<option>Pelabola</option>
+							<option>Medio que talfi</option>
+							<option>Alto burgués panzon</option>
+						</select>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="form-group col-md-3 col-xs-12">
+						<label>Duracion:</label>
+
+						<select class="form-control ">
+							<option>1 día</option>
+							<option>2 días</option>
+							<option>3 días</option>
+							<option>Los de su preferencia bb brrrrr</option>
+						</select>						
+					</div>
+
+					<div class="form-group col-md-3 col-xs-12">
+						<label>Adultos:</label>
+						<input type="password" name="contraseña" class="form-control" placeholder="0">
+					</div>
+					
+					<div class="form-group col-md-3 col-xs-12">
+						<label>Niños:</label>
+						<input type="text" name="nombre" class="form-control" placeholder="Ej:Barquisimeto">				
+					</div>
+
+					<div class="form-group col-md-3 col-xs-12">
+						
+						<button type="submit" class="btn btn-success btn-block"><i class="glyphicon glyphicon-search"></i> Registrar</button>			
+					</div>			
+				</div>
+
+
+			</form>
+		</div>
+	</div>
+	<div class="container-fluid" id="servicios">
+		<section class="container">
+			<h1>Servicios</h1>
+		</section>			
+	<div class="container">
+		<div class="row">
+			<div class="lineafea"><!--Lineas atrasvesadas, mi mayor debilidad.. NOOOOO! *se muere*-->
+			</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="col-md-11 servicios">
+						<span class="glyphicon glyphicon-plane"></span>
+						<h3>Boletos aereos</h3>
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="col-md-11 servicios">
+						<span class="glyphicon glyphicon-globe"></span>
+						<h3>Cruseros</h3>
+
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="col-md-11 servicios">
+						<span class="glyphicon glyphicon-bed"></span>
+						<h3>Hoteles</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="col-md-11 servicios">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<h3>Hoteles</h3>
+						
+					</div>
+				</div>
+		</div>		
+	</div>
+
+	</div>
+	<div class="container-fluid" >
+		<div class="row" id="imagenes">
+			<div class="papaupafotos">
+				<div class="col-md-3 col-xs-12 imagenes">
+					<!-- <img title="pofua mamuaself?"> -->
+					<h3 class="tituloconbordecitox">Francia</h3>
+				</div>
+				<div class="col-md-3 col-xs-12 imagenes">
+					<!-- <img title="これを読んだら、ゲイ" alt="China Town" -->
+					<h3 class="tituloconbordecitox">Japón</h3>
+				</div>
+				<div class="col-md-3 col-xs-12 imagenes">
+					<h3 class="tituloconbordecitox">Rusia</h3>
+				</div>
+				<div class="col-md-3 col-xs-12 imagenes ">
+					<h3 class="tituloconbordecitox">Inglaterra</h3>
+			</div>						
+			</div>
+	
+		</div>
+
+	</div>
+				
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
